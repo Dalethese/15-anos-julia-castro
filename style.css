@@ -33,33 +33,18 @@ body{
     margin: auto;
 }
 
-.nome{
-    font-family: var(--fonte-titulo);
-    font-size: 90px;
-    font-weight: 500;
-    text-align: center;
-    color: var(--cor-titulo);
-    
-
-    position: relative;
-    top: -80px;
-    margin-bottom: -80px;
-}
-
-h2, p{
+h2{
     font-family: var(--fonte-padrao);
     font-weight: normal;
-    font-size: 20px;
+    font-size: 1.4em;
     text-align: center;
     color: var(--cor-titulo);
 }
-
-h3{
+p{
     font-family: var(--fonte-padrao);
-    font-style: italic;
-    font-size: 20px;
-    color: var(--cor-titulo);
+    font-size: 0.8em;
 }
+
 
 /* header */
 
@@ -123,20 +108,35 @@ h3{
     flex-direction: column;
     align-items: center;
 
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
-#xvanos{
+.nome{
+    font-family: var(--fonte-titulo);
+    font-size: 6.5em;
+    font-weight: 500;
+    text-align: center;
+    color: var(--cor-titulo);
+    text-shadow: 5px 5px 6px #0000007e;
+
+    position: relative;
+    top: -113px;
+    margin-bottom: -128px;
+}
+.content__chamada.XvAnos{
     font-family: var(--fonte-xv);
     font-weight: normal;
-    font-size: 80px;
+    font-size: 5em;
     color: var(--cor-titulo);
-    margin-bottom: -10px;
+    margin: -15px 0px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.267);
 }
-
-.texto_clique{
-    border-top: 1px solid var(--cor-titulo);
-    padding: 10px;
+.content__chamada.data{
+    text-align: center;
+    font-family: var(--fonte-xv), cursive;
+    font-size: 2em;
+    font-weight: 500;
+    color: var(--cor-titulo);
 }
 
 .content__interacao{
@@ -152,14 +152,16 @@ h3{
 }
 
 .content__interacao p{
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    font-family: var(--fonte-padrao);
+    color: var(--cor-titulo);
 }
 
 /* footer */
 
-footer{
+.rodape{
+    width: 100%;
+    height: 137px;
     background-image: url('imagens/flor3.png');
-    display: flex;
-    justify-content: last baseline;
-    position: fixed;
+    background-repeat: repeat-x;
 }
