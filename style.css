@@ -151,6 +151,10 @@ h3{
     border-radius: 50%;
 }
 
+.content__interacao p{
+    padding-bottom: 10px;
+}
+
 /* footer */
 
 footer{
