@@ -1,0 +1,11 @@
+<header class="menu">
+        <nav class="menu__links">
+            <ul class="menu__links__list" type="none"> 
+                <li class="menu__links__list__itens"><a href="index.html">Home</a></li>
+                <li class="menu__links__list__itens"><a href="pages/local.html">Localização</a></li>
+                <li class="menu__links__list__itens"><a href="pages/historia.html">História</a></li>
+                <li class="menu__links__list__itens"><a href="pages/presenca.html">Presença</a></li>
+                <li class="menu__links__list__itens"><a href="pages/presentes.html">Presentes</a></li>
+            </ul>
+        </nav>
+    </header>
